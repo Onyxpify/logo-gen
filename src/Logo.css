@@ -1,0 +1,55 @@
+/* @font-face {
+    font-family: 'Rokkitt';
+    src: local('Roobert'), url(./fonts/Rokkitt/Rokkitt-Bold.ttf);
+} */
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    /* font-family: 'Rokkitt', serif; */
+    font-size: 5vmax;
+    font-weight: bold;
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 100%;
+    width: 90%;
+    margin-left: 15px;
+}
+.rounded {
+    position: absolute;
+    top: 52%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    /* font-family: 'Rokkitt', serif; */
+    font-size: 5vmax;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 100%;
+    width: 90%;
+}
+#logoPreview {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .centered {
+        font-size: 200%;
+        top: 75%;
+        left: 48%;
+        /*width: 90%;*/
+    }
+    .rounded {
+        font-size: 160%;
+        top: 55%;
+        left: 50%;
+    }
+    #logoPreview {
+        width: 50%;
+    }
+}
+

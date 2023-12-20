@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@600&display=swap'); */
+/* body {
+    font-family: 'Rokkitt', serif;
+} */
+
+@font-face {
+    font-family: 'Roobert';
+    src: local('Roobert'), url(./fonts/Roobert-Bold.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Roobert', serif;
+}
